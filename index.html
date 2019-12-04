@@ -9,6 +9,66 @@
 </head>
 <body>
   <div class="container">
-
+    <div class="text-center">
+      <h3>Answer three simple questions to find out which Lord of the Rings character you are:</h3>
+      <img src="img/picture.jpg" alt="">
+      <form id="quiz">
+        <h4> How loyal are you to your friends?</p>
+        <div class="form-group">
+          <label>Very Loyal</label>
+          <input type="radio" name="loyal" value="4">
+        </div>
+        <div class="form-group">
+          <label>Somewhat Loyal</label>
+          <input type="radio" name="loyal" value="3">
+        </div>
+        <div class="form-group">
+          <label>Not Very Loyal</label>
+          <input type="radio" name="loyal" value="2">
+        </div>
+        <div class="form-group">
+          <label>To hell with my friends.</label>
+          <input type="radio" name="loyal" value="1">
+        </div>
+        <h4> Would you consider yourself handsome?</p>
+        <div class="form-group">
+          <label>Very Handsome</label>
+          <input type="radio" name="handsome" value="4">
+        </div>
+        <div class="form-group">
+          <label>Somewhat Handsome</label>
+          <input type="radio" name="handsome" value="3">
+        </div>
+        <div class="form-group">
+          <label>Not Very Handsome</label>
+          <input type="radio" name="handsome" value="2">
+        </div>
+        <div class="form-group">
+          <label>Ugly as a duck.</label>
+          <input type="radio" name="handsome" value="1">
+        </div>
+        <h4> Would you consider yourself generous?</p>
+        <div class="form-group">
+          <label>Very Generous</label>
+          <input type="radio" name="generous" value="4">
+        </div>
+        <div class="form-group">
+          <label>Somewhat Generous</label>
+          <input type="radio" name="generous" value="3">
+        </div>
+        <div class="form-group">
+          <label>Not Very Generous</label>
+          <input type="radio" name="generous" value="2">
+        </div>
+        <div class="form-group">
+          <label>I don't owe you shit partner.</label>
+          <input type="radio" name="generous" value="1">
+        </div>
+        <button type="submit" class="btn btn-success">Go!</button>
+      </form>
+      <div id="output">
+        <h3>In Lord of the Rings, you are: <span id="name"></span></h3>
+      </div>
+    </div>
   </div>
 </body>
